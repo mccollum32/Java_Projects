@@ -1,0 +1,22 @@
+import java.util.Scanner; 
+
+public class OutputWithVars {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      int userNum;
+      int userNum2;
+
+      // Create variables to find the Square root of a number and to find it Cubed
+      System.out.println("Enter integer:");
+      userNum = scnr.nextInt();
+      System.out.println("You entered: " + userNum);
+      System.out.println(userNum + " squared is " + userNum * userNum);
+      System.out.println("And " + userNum + " cubed is " + userNum * userNum * userNum + "!!");
+      
+      System.out.println("Enter another integer:");
+      userNum2 = scnr.nextInt();
+      System.out.println(userNum + " + " + userNum2 + " is " + (userNum + userNum2));
+      System.out.println(userNum + " * " + userNum2 + " is " + (userNum * userNum2));
+      
+   }
+}
